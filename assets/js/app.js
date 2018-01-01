@@ -39,15 +39,17 @@ function contador() {
   var comment = document.getElementById("comment").value;
   var caracteres = comment.length;
   contador.innerHTML = 140 - caracteres;
-  //desactiva el botón cuando se pasan los 140 caracteres y envia un mensaje de alerta
+  //desactiva el botón cuando se pasan los 140 caracteres
   if (comment.length > 140 || comment == null) {
     btn.disabled = true;
+  } else {
+    return btn.disabled = false;
   }
 //cambia el color del contador si pasan los 120 caracteres
   if (caracteres > 120) {
     contador.style.color = '#ff9d28';
   }
-//cambia el color del contador si pasan los 140 caracteres
+//cambia el color del contador si pasan los 130 caracteres
   if (caracteres > 130) {
     contador.style.color = 'red';
   }
