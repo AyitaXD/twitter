@@ -42,12 +42,11 @@ textarea {
   max-width: 474px;
   min-width: 474px;
   width: 474px;
-  height: 5em;
+  height: 3em;
   font-size: 15px;
   padding: 1em;
   margin: 0 auto;
   background: #fff;
-  overflow: hidden;
   border: solid 2px #C6E7FB;
 }
 /*botón para twittear*/
@@ -55,10 +54,15 @@ textarea {
   background-color: #6CD2F5;
   border: 0px;
   cursor: pointer;
-  margin: 2em 1em;
+  margin: 1em 1em;
   width: 130px;
   height: 30px;
   color: #FFF;
+}
+/*contador regresivo*/
+#contador {
+  background: white;
+  width: 2em;
 }
 
 #btn:hover {
