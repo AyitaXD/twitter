@@ -50,7 +50,7 @@ function contador() {
   if (caracteres > 120) {
     contador.style.color = '#ff9d28';
   }
-//cambia el color del contador si pasan los 140 caracteres
+//cambia el color del contador si pasan los 130 caracteres
   if (caracteres > 130) {
     contador.style.color = 'red';
   }
